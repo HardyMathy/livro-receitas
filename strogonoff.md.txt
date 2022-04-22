@@ -1,0 +1,51 @@
+GIT
+cd / - leva pra base do diretorio C
+TECLA TAB AUTO COMPLETA	
+cd .. - voltar um nivel
+cls - limpa o terminal
+
+dir  - listar
+mkdir - criar uma pasta
+echo - cria um repositorio na onde desejar e coloca oque quer que tenha dentro
+exemplo echo ( echo teste > texto.txt
+del - deleta arquivo dentro da pasta determinada
+rmdir  nome da pasta   /S /Q - deletar pasta
+
+criando uma sha1
+$ openssl sha1 notepad.txt
+
+SHA1(notepad.txt)= 9d98a2b60e903b43e91a1d0d452b1b8830a56a13
+
+blob
+tree
+commit
+
+
+
+$ ssh-keygen -t ed25519 -C matheusapc@gmail.com
+ls - diretorio
+ eval $(ssh-agent -s)
+ssh-add id_ed25519
+
+
+git clone https://github.com/brunograssano/Analisis-de-la-informacion-fiuba.git - clonar o git de alguem pra sua maquin
+
+token seguranca
+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
+
+-----------------
+criando pasta via git
+
+localizo onde quero criar
+cd
+cd teste/  ~nome da pasta(teste)
+cd livro-receita -chamo pra iniciar e criar outra pasta(livro-receita)
+git init - iniciar o git (msg que ira aparecer(Initialized empty Git repository in C:/Users/HardyMath/Desktop/teste/livro-receitas/.git/
+ls ~listar oque tem dentro da pasta
+ls -a ~ mostra os itens oculto
+cd ..  ~ voltar um nivel
+" se e a primeira vez que esta utilizando o git. vai pedir um name"
+git config -- global user.email "matheusapc@gmail.com" - passar o email
+git config --global user.name hardymathy ~ chamando o nome do usuario do git
+
+
